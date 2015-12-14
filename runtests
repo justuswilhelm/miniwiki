@@ -1,0 +1,4 @@
+#!/bin/sh
+pep8 application.py
+pep257 application.py
+pyflakes application.py

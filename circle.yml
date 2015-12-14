@@ -1,0 +1,8 @@
+test:
+  override:
+    - ./runtests
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: miniwikiwiki
